@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ECR_REGISTRY: 380278406175.dkr.ecr.us-east-1.amazonaws.com
+    ECR_REGISTRY: 676782900636.dkr.ecr.us-east-2.amazonaws.com
     ECR_REPO: bia
     VITE_API_URL: http://bia-alb-1676259270.us-east-2.elb.amazonaws.com
 
