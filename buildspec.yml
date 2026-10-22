@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     ECR_REGISTRY: 676782900636.dkr.ecr.us-east-2.amazonaws.com
-    ECR_REPO: bia
+    ECR_REPO: fundamentos
     VITE_API_URL: http://bia-alb-1676259270.us-east-2.elb.amazonaws.com
 
 phases:
