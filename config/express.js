@@ -23,10 +23,5 @@ module.exports = () => {
   require("../api/routes/versao")(app);
   require("../api/routes/cache-config")(app);
 
-  // Fallback para React Router - serve index.html para todas as rotas não-API
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, "../", "client", "build", "index.html"));
-  });
-
   return app;
 };
